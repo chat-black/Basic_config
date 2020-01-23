@@ -1,0 +1,9 @@
+{
+"server": "0.0.0.0",
+"server_port": "8000"       ,
+"password": "wanghu",
+"method": "aes-256-cfb"     ,
+"timeout": 60               ,
+"nameserver": "8.8.8.8"     ,
+"mode": "tcp_and_udp"       ,
+}
