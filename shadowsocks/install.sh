@@ -11,7 +11,7 @@ cd /etc
 mkdir shadowsocks
 cd shadowsocks
 mv ~/config_ss_temp ./configure
-firewall-cmd --zone=public --add-port=80/tcp --permanent
+firewall-cmd --zone=public --add-port=8000/tcp --permanent
 firewall-cmd --reload
 read -p "Do you want to load ss now? (y/n): " flag
 if [ "$flag" = "y" -o "$flag" = "Y" ]
