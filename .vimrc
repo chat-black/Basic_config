@@ -1,12 +1,11 @@
 " This is my configure file
+:set background=dark
 :set nocompatible
 
 :filetype on
 :filetype indent on
 :syntax on
-:colorscheme molokai
 :set t_Co=256
-:set background=dark
 
 :set number relativenumber
 :set showcmd ruler
