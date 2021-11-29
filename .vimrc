@@ -29,8 +29,6 @@
 :set ignorecase
 :set smartcase
 
-:set list
-
 "##############################
 
 
